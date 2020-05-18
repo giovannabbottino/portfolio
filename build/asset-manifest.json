@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/potfolio/static/css/main.93a05b42.chunk.css",
-    "main.js": "/potfolio/static/js/main.132d0e93.chunk.js",
-    "main.js.map": "/potfolio/static/js/main.132d0e93.chunk.js.map",
-    "runtime-main.js": "/potfolio/static/js/runtime-main.7f7995e9.js",
-    "runtime-main.js.map": "/potfolio/static/js/runtime-main.7f7995e9.js.map",
-    "static/js/2.00e0920a.chunk.js": "/potfolio/static/js/2.00e0920a.chunk.js",
-    "static/js/2.00e0920a.chunk.js.map": "/potfolio/static/js/2.00e0920a.chunk.js.map",
-    "index.html": "/potfolio/index.html",
-    "precache-manifest.d620d5f17a866f6f228cdaf331540ec8.js": "/potfolio/precache-manifest.d620d5f17a866f6f228cdaf331540ec8.js",
-    "service-worker.js": "/potfolio/service-worker.js",
-    "static/css/main.93a05b42.chunk.css.map": "/potfolio/static/css/main.93a05b42.chunk.css.map",
-    "static/js/2.00e0920a.chunk.js.LICENSE.txt": "/potfolio/static/js/2.00e0920a.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/potfolio/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/undraw_logic_n6th.svg": "/potfolio/static/media/undraw_logic_n6th.cfb386bf.svg"
+    "main.css": "/portfolio/static/css/main.71f6ee75.chunk.css",
+    "main.js": "/portfolio/static/js/main.d04590bb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d04590bb.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
+    "static/js/2.00e0920a.chunk.js": "/portfolio/static/js/2.00e0920a.chunk.js",
+    "static/js/2.00e0920a.chunk.js.map": "/portfolio/static/js/2.00e0920a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.d09e9c9f3c163eac0f57e71bc9db3dd9.js": "/portfolio/precache-manifest.d09e9c9f3c163eac0f57e71bc9db3dd9.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.71f6ee75.chunk.css.map": "/portfolio/static/css/main.71f6ee75.chunk.css.map",
+    "static/js/2.00e0920a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.00e0920a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/undraw_logic_n6th.svg": "/portfolio/static/media/undraw_logic_n6th.cfb386bf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f7995e9.js",
+    "static/js/runtime-main.fb1b3dac.js",
     "static/js/2.00e0920a.chunk.js",
-    "static/css/main.93a05b42.chunk.css",
-    "static/js/main.132d0e93.chunk.js"
+    "static/css/main.71f6ee75.chunk.css",
+    "static/js/main.d04590bb.chunk.js"
   ]
 }
