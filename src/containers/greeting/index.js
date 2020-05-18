@@ -23,8 +23,8 @@ export default function Greeting() {
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
-            <SocialMedia />
             <Education />
+            <SocialMedia />
             <div className="button-greeting-div">
             <Button text="Contact me" href="#contact" />
             <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
