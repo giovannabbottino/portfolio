@@ -1,0 +1,21 @@
+.experience-header-title {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 0px;
+  }
+
+.more-button {
+    display: flex;
+    justify-content: center;
+}
+  @media (max-width: 768px) {
+    .experience-header-title {
+      font-size: 30px;
+      text-align: center;
+    }
+    .experience-header-subtitle {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+  }

@@ -4,7 +4,7 @@ const greeting = {
     /* Your Summary And Greeting Section */
     username: "Giovanna B Bottino",
     title: "Hello there, I'm Giovanna",
-    subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current campaign.",
+    subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current D&D campaign.",
     resumeLink: "https://drive.google.com/open?id=1rwmiBZjHDkNmr6AAGjo9wUptACB76mVG"
 };
 

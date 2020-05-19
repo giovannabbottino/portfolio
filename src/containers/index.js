@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 import Header from "../components/header/";
-import Greeting from "./greeting"
-import Skills from "./skills"
+import Greeting from "./greeting";
+import Skills from "./skills";
+import Experiences from "./experience";
 
 export default class Main extends Component {
 	render() {
@@ -11,6 +12,7 @@ export default class Main extends Component {
 				<Header />
 				<Greeting />
 				<Skills />
+				<Experiences />
 			</div>
 		);
 	}
