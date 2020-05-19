@@ -25,14 +25,15 @@ export default function Greeting() {
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <Education />
             <SocialMedia />
-            <div className="button-greeting-div">
-            <Button text="Contact me" href="#contact" />
-            <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div>
           </div>
         </div>
         <div className="greeting-image-div">
+        <div className="button-greeting-div">
+            <Button text="Contact me" href="#contact" />
+            <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+            </div>
         <img alt="Giovanna Standing" src={require("../../assests/images/undraw_logic_n6th.svg")}></img>
+
         </div>
       </div>
     </div>
