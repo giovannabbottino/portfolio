@@ -80,35 +80,6 @@ const skillsSection = {
         {
             skillName: "python",
             fontAwesomeClassname: "fab fa-python"
-        },
-        {
-            skillName: "django",
-            fontAwesomeClassname: "fab fa-django"
-        },
-        {
-            skillName: "docker",
-            fontAwesomeClassname: "fab fa-docker"
-        },
-        {
-            skillName: "C",
-            fontAwesomeClassname: "fab fa-c"
-        },
-        {
-            skillName: "C++",
-            fontAwesomeClassname: "fab fa-c++"
-        },
-        {
-            skillName: "C#",
-            fontAwesomeClassname: "fab fa-c#"
-        },
-        {
-            skillName: "ruby",
-            fontAwesomeClassname: "fab fa-ruby"
-        }
-        ,
-        {
-            skillName: "on rails",
-            fontAwesomeClassname: "fab fa-on-rails"
         }
     ]
 };
@@ -122,7 +93,7 @@ const experienceSection = {
             title: "AI.LAB - UnB",
             job_title: "Inter",
             description: [
-                "Academic research related to Machine Learning;", 
+                "Academic research related to Machine Learning;",
                 "Study of the use of Kubeflow with Kubernetes."
             ],
             start_date: "March 2020",
@@ -141,22 +112,6 @@ const experienceSection = {
         }
     ]
 };
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-    projects: [
-        {
-            image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-            link: "http://saayahealth.com/"
-        },
-        {
-            image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-            link: "http://nextu.se/"
-        }
-    ]
-};
 
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
@@ -165,14 +120,30 @@ const contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
-
+const techStack = {
+    viewSkillBars: true, //Set it to true to show Proficiency Section
+    experience: [
+        {
+            Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+            progressPercentage: "50%"  //Insert relative proficiency in percentage
+        },
+        {
+            Stack: "Backend",
+            progressPercentage: "70%"
+        },
+        {
+            Stack: "Programming",
+            progressPercentage: "70%"
+        }
+    ]
+};
 export {
     greeting,
     socialMediaLinks,
     skillsSection,
     contactInfo,
     openSource,
-    bigProjects,
     experienceSection,
-    education
+    education,
+    techStack
 };
