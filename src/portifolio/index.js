@@ -4,7 +4,7 @@ const greeting = {
     /* Your Summary And Greeting Section */
     username: "Giovanna B Bottino",
     title: "Hello there, I'm Giovanna",
-    subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects.",
+    subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current campaign.",
     resumeLink: "https://drive.google.com/open?id=1rwmiBZjHDkNmr6AAGjo9wUptACB76mVG"
 };
 
@@ -42,8 +42,8 @@ const openSource = {
 };
 
 const skillsSection = {
-    title: "What i do",
-    subTitle: "YOU HAVE TO FARM TO EARN XP",
+    title: "Skills",
+    subTitle: "+7 Acrobatics; +8 Deception; +8 Intimidation; +8 Performance",
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
     https://fontawesome.com/icons?d=gallery */
