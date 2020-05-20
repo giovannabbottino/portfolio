@@ -5,12 +5,12 @@ const greeting = {
     username: "Giovanna B Bottino",
     title: "Hello there, I'm Giovanna",
     subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current D&D campaign.",
-    resumeLink: "https://drive.google.com/open?id=1rwmiBZjHDkNmr6AAGjo9wUptACB76mVG"
+    resumeLink: "https://drive.google.com/open?id=1iiZMl0hRluqcBs-NUhwOodmcWwnfB7t-"
 };
 
 const socialMediaLinks = {
     github: "https://github.com/giovannabbottino",
-    linkedin: "https://www.linkedin.com/in/giovannabbottino/",
+    linkedin: "https://www.linkedin.com/in/giovannabbottino/?locale=en_US",
     gmail: "giovannabbottino@gmail.com",
     gitlab: "https://gitlab.com/giovannabbottino",
     deviantart: "https://www.deviantart.com/giovannabbottino",
@@ -43,7 +43,7 @@ const openSource = {
 
 const skillsSection = {
     title: "Skills",
-    subTitle: "+7 Acrobatics; +8 Deception; +8 Intimidation; +8 Performance",
+    subTitle: "+7 Acrobatics; +8 Intimidation; +8 Performance",
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
     https://fontawesome.com/icons?d=gallery */

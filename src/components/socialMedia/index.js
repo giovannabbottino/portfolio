@@ -14,6 +14,14 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.gitlab ?
+      <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">
+        <i className="fab fa-gitlab"></i>
+        <span></span>
+      </a>
+      :
+      null }
+
       {socialMediaLinks.linkedin ?
       <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank">
         <i className="fab fa-linkedin-in"></i>
@@ -30,25 +38,18 @@ export default function socialMedia() {
       :
       null}
 
-      {socialMediaLinks.gitlab ?
-      <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">
-        <i className="fab fa-gitlab"></i>
-        <span></span>
-      </a>
-      :
-      null }
 
-      {socialMediaLinks.deviantart ?
-      <a href={socialMediaLinks.deviantart} className="icon-button deviantart" target="_blank">
-        <i className="fab fa-deviantart"></i>
-        <span></span>
-      </a>
-      :
-      null}
 
       {socialMediaLinks.instagram ?
       <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank">
         <i className="fab fa-instagram"></i>
+        <span></span>
+      </a>
+      :
+      null}
+      {socialMediaLinks.deviantart ?
+      <a href={socialMediaLinks.deviantart} className="icon-button deviantart" target="_blank">
+        <i className="fab fa-deviantart"></i>
         <span></span>
       </a>
       :
