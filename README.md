@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! This project was made based on [Developer Folio](https://github.com/saadpasta/developerFolio), an open software project, and customized for my experiences. 
 
+You can see my website [here](https://giovannabbottino.github.io/portfolio)
+ 
 ## Getting Started 🚀
 
 You'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) and [npm](http://npmjs.com) installed on your computer.
