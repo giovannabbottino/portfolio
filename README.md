@@ -44,6 +44,9 @@ $ npm start
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
 
+## Icons
+- [Freepik](https://www.flaticon.com/authors/freepik) 
+
 ## Deployment 
 Don't forget to put your website online. 
 I used [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages), cuz was free and easy. And I highly recommend. 

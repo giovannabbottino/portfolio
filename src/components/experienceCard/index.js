@@ -13,7 +13,7 @@ export default function ExperienceCard({ experienceDetails }) {
         <Typography className="experience-card-job_title" color="textSecondary">
           {experienceDetails.job_title}
         </Typography>
-        <Typography className="experience-card-description-div" variant="body2" component="p">
+        <Typography className="experience-card-description-div" variant="body2" >
           {experienceDetails.description.map(dec => {
             return (
               <p className="experience-card-description" key={dec} >{dec}</p>
