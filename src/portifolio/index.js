@@ -5,7 +5,7 @@ const greeting = {
     username: "Giovanna B Bottino",
     title: "Hello there, I'm Giovanna",
     subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current D&D campaign.",
-    resumeLink: "https://drive.google.com/open?id=1iiZMl0hRluqcBs-NUhwOodmcWwnfB7t-"
+    resumeLink: "https://drive.google.com/file/d/1Me4ucAcJJBH-fFcucHXIHR77OSaTEpLV/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -91,7 +91,7 @@ const experienceSection = {
     experiences: [
         {
             title: "AI.LAB - UnB",
-            job_title: "Inter",
+            job_title: "Intern",
             description: [
                 "Academic research related to Machine Learning;",
                 "Study of the use of Kubeflow with Kubernetes."
@@ -101,7 +101,7 @@ const experienceSection = {
         },
         {
             title: "Bank of Brazil",
-            job_title: "Inter",
+            job_title: "Intern",
             description: [
                 "Responsible for automating the sending of emails with performance analysis;",
                 "Production and maintenance of database powered by web scraping;",
