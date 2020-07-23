@@ -97,7 +97,8 @@ const experienceSection = {
                 "Study of the use of Kubeflow with Kubernetes."
             ],
             start_date: "March 2020",
-            end_date: "Currently"
+            end_date: "Currently",
+            color: "#55198b",
         },
         {
             title: "Bank of Brazil",
@@ -108,7 +109,8 @@ const experienceSection = {
                 "Assist in various data science and analytics activities."
             ],
             start_date: "May 2019",
-            end_date: "March 2020"
+            end_date: "March 2020",
+            color: "#55198b",
         }
     ]
 };
