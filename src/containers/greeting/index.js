@@ -3,7 +3,7 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 import "./style.css";
-import { greeting } from "../../portifolio";
+import { greeting, buttons } from "../../portifolio";
 
 import SocialMedia from "../../components/socialMedia/";
 import Button from "../../components/button/";
@@ -29,8 +29,8 @@ export default function Greeting() {
         </div>
         <div className="greeting-image-div">
         <div className="button-greeting-div">
-            <Button text="Contact me" href="#contact" />
-            <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+            <Button text={buttons.contact} href="#contact" />
+            <Button text={buttons.resume} newTab={true} href={greeting.resumeLink} />
             </div>
         <img alt="Giovanna Standing" src={require("../../assests/images/undraw_logic_n6th.svg")}></img>
 

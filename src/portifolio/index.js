@@ -1,14 +1,6 @@
 import emoji from "react-easy-emoji";
 
-const greeting = {
-    /* Your Summary And Greeting Section */
-    username: "Giovanna B Bottino",
-    title: "Hello there, I'm Giovanna",
-    subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current D&D campaign.",
-    resumeLink: "https://drive.google.com/file/d/1Me4ucAcJJBH-fFcucHXIHR77OSaTEpLV/view?usp=sharing"
-};
-
-const socialMediaLinks = {
+var socialMediaLinks = {
     github: "https://github.com/giovannabbottino",
     linkedin: "https://www.linkedin.com/in/giovannabbottino/?locale=en_US",
     gmail: "giovannabbottino@gmail.com",
@@ -41,7 +33,7 @@ const openSource = {
     showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
-const skillsSection = {
+var skillsSection = {
     title: "Skills",
     subTitle: "+7 Acrobatics; +8 Intimidation; +8 Performance",
 
@@ -84,38 +76,7 @@ const skillsSection = {
     ]
 };
 
-const experienceSection = {
-    title: "Experiences",
-    subtitle: "I HAVE KILLED 3 DRAGONS IN D&D",
-
-    experiences: [
-        {
-            title: "AI.LAB - UnB",
-            job_title: "Intern",
-            description: [
-                "Academic research related to Machine Learning;",
-                "Study of the use of Kubeflow with Kubernetes."
-            ],
-            start_date: "March 2020",
-            end_date: "Currently",
-            color: "#55198b",
-        },
-        {
-            title: "Bank of Brazil",
-            job_title: "Intern",
-            description: [
-                "Responsible for automating the sending of emails with performance analysis;",
-                "Production and maintenance of database powered by web scraping;",
-                "Assist in various data science and analytics activities."
-            ],
-            start_date: "May 2019",
-            end_date: "March 2020",
-            color: "#55198b",
-        }
-    ]
-};
-
-const contactInfo = {
+var contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
     number: "+55-61985819745",
@@ -139,6 +100,141 @@ const techStack = {
         }
     ]
 };
+
+var buttons = {}
+var greeting = {}
+var experienceSection = {}
+
+const currentLang = localStorage.getItem('lang')
+if (currentLang == 'pt-br') {
+
+    buttons={
+        skill: "Habilidades",
+        experiences: "Experiência",
+        contact: "Contato",
+        resume: "Veja meu curriculo!",
+        more: "Mais!",
+        reach: "Me encontre!",
+    }
+
+    socialMediaLinks.linkedin = "https://www.linkedin.com/in/giovannabbottino/"
+
+    skillsSection.title = "Habilidades"
+    skillsSection.subTitle = "+7 Acrobacia; +8 Intimidação; +8 Performance"
+
+    contactInfo.title = emoji("Entre em contato ☎️")
+    contactInfo.subtitle = "Discutir um projeto ou apenas dizer oi? Minha caixa de entrada está aberta para todos."
+
+    greeting = {
+        /* Your Summary And Greeting Section */
+        username: "Giovanna B Bottino",
+        title: "Oi! Meu nome é Giovanna",
+        subTitle: "Uma desenvolvedora de software júnior. Estudante de Engenharia de Software na UnB. MBA Jr. pela BBI de Chicago. Programadora de jogos digitais pelo Instituto Federal de Brasília. Interessada em trabalho voluntário e projetos extracurriculares. Eu também sou uma feiticeira de nível 10 na minha atual campanha de D&D.",
+        resumeLink: "https://drive.google.com/file/d/1Qu7755tZ9CHiPI3ZTFZDq5zYWmnemaSh/view?usp=sharing"
+    };
+
+    experienceSection = {
+        title: "Experiências",
+        subtitle: "MATEI 3 DRAGÕES EM D&D",
+
+        experiences: [
+            {
+                title: "Simplicode",
+                job_title: "Professora",
+                description: 
+                    `Professora de programação para crianças de 8 a 12 anos durante as horas vagas`
+                ,
+                start_date: "Jul 2020",
+                color: "#55198b",
+            },
+            {
+                title: "AI.LAB - UnB",
+                job_title: "Desenvolvedora de Software",
+                description: `Projeto e crio soluções de software 
+                em Python para integração entre
+                inteligência artificial e uma plataforma legal.
+                Além de pesquisar acadêmicamente sobre Machine Learning e 
+                o uso de Kubeflow com Kubernetes`,
+                start_date: "Março 2020",
+                color: "#55198b",
+            },
+            {
+                title: "Banco do Brasil",
+                job_title: "Estágiaria de analise de dados",
+                description: `Desenvolvia e implementava soluções de
+                software baseadas nos requisitos do cliente.
+                Auxiliava em várias atividades de ciência de dados e análise
+                Programava em Python; Django/Flask e JavaScript;
+                React.
+                Era responsável por automatizar o envio de emails com
+                análise de desempenho.
+                Produzi e fiz manutenção de banco de dados alimentado
+                por web scraping.`,
+                start_date: "Maio 2019",
+                color: "#55198b",
+            }
+        ]
+    };
+}
+else {
+
+    buttons={
+        skill: "Skills",
+        experiences: "Experiences",
+        contact: "Contact Me",
+        resume: "See my resume",
+        more: "MORE",
+        reach: "Reach Out to me!",
+    }
+
+    greeting = {
+        /* Your Summary And Greeting Section */
+        username: "Giovanna B Bottino",
+        title: "Hello there, I'm Giovanna",
+        subTitle: "A Junior Software Developer. Software Engineering student at UnB. MBA Jr. by BBI of Chicago. Digital games programmer by the Federal Institute of Brasília. Interested in volunteer work and extracurricular projects. I'm also a lvl 10 Sorcerer in my current D&D campaign.",
+        resumeLink: "https://drive.google.com/file/d/1jqHyyEXYHJ3GM8Xc-vfEQUeWp5FL5-iJ/view?usp=sharing"
+    };
+
+    experienceSection = {
+        title: "Experiences",
+        subtitle: "I HAVE KILLED 3 DRAGONS IN D&D",
+
+        experiences: [
+            {
+                title: "Simplicode",
+                job_title: "Teacher",
+                description: `Programming teacher for children aged 8 to 12 during free time`,
+                start_date: "July 2020",
+                color: "#55198b",
+            },
+            {
+                title: "AI.LAB - UnB",
+                job_title: "Software Developer",
+                description: `I design and create software solutions in Python for 
+                integration between artificial intelligence and a legal platform. 
+                In addition to academic research on Machine Learning and the use of 
+                Kubeflow with Kubernetes`,
+                start_date: "March 2020",
+                color: "#55198b",
+            },
+            {
+                title: "Bank of Brazil",
+                job_title: "Data analytics intern",
+                description: `Developed and implemented solutions for
+                software required in customer requirements.
+                Helps with various data science and analysis activities
+                Python program; Django / Flask and JavaScript;
+                To react.
+                Was responsible for automating the sending of emails with
+                performance analysis.
+                Powered database products and maintenance
+                by scraping the web.` ,
+                start_date: "May 2019",
+                color: "#55198b",
+            }
+        ]
+    };
+}
 export {
     greeting,
     socialMediaLinks,
@@ -147,5 +243,6 @@ export {
     openSource,
     experienceSection,
     education,
-    techStack
+    techStack,
+    buttons,
 };

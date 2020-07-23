@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import GithubProfileCard from "../../components/githubProfileCard";
 import axios from "axios";
 import { openSource } from "../../portifolio";
-import Contact from "../../components/contact/";
 
 
 export default function Profile() {
@@ -21,7 +20,5 @@ export default function Profile() {
   }, []);
   if (openSource.showGithubProfile === "true"){
     return ( <GithubProfileCard prof={prof} key={prof.id} /> );
-  } else {
-    return(<Contact />);
-  }
+  } 
 }

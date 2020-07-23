@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 import { Fade } from "react-reveal";
-import {greeting} from "../../portifolio/";
+import { greeting, buttons } from "../../portifolio/";
+import Lang from "../language"
 
 function Header() {
     return (
@@ -19,13 +20,16 @@ function Header() {
                     </label>
                     <ul className="menu">
                         <li>
-                            <a href="#skills">Skills</a>
+                            <a href="#skills">{buttons.skill}</a>
                         </li>
                         <li>
-                            <a href="#experiences">Experiences</a>
+                            <a href="#experiences">{buttons.experiences}</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact Me</a>
+                            <a href="#contact">{buttons.contact}</a>
+                        </li>
+                        <li>
+                            <Lang />
                         </li>
                     </ul>
                 </header>

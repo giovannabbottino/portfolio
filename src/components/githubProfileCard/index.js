@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import "./style.css";
 import SocialMedia from "../socialMedia";
-import {contactInfo} from "../../portifolio";
+import {contactInfo, buttons} from "../../portifolio";
 import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
 
@@ -14,7 +14,7 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title">Reach Out to me!</h1>
+        <h1 className="prof-title">{buttons.reach}</h1>
       <div className="row">
         <div className="main-content-profile">
             <div className="blog-header">
