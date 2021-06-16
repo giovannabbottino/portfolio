@@ -6,7 +6,7 @@ export default function Lang() {
     const defaultLang = localStorage.getItem('lang')  
     
     function LangEvent(){
-        if(defaultLang == 'pt-br'){
+        if(defaultLang === 'pt-br'){
             localStorage.setItem('lang', 'en')
             window.location.reload();
         }else{
