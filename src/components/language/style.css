@@ -2,7 +2,7 @@
     align-content: center;
     border: none;
     outline: none;
-    background-color: #55198b;
+    background-color: #5FDECB;
     color: white;
     cursor: pointer;
     padding: 10px;
@@ -11,6 +11,6 @@
 }
 #langButton:hover {
     background-color: #ffffff;
-    color: #55198b;
+    color: #5FDECB;
     transition: ease-in 0.3s;
 }

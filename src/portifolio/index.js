@@ -79,7 +79,7 @@ var skillsSection = {
 var contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+55-61985819745",
+    number: "+55 (61) 9 8581-9745",
     email_address: "giovannabbottino@gmail.com"
 };
 
@@ -145,7 +145,7 @@ if (currentLang === 'pt-br') {
                     `Professora de programação para crianças de 8 a 12 anos durante as horas vagas`
                 ,
                 start_date: "Jul 2020",
-                color: "#55198b",
+                color: "#5FDECB",
             },
             {
                 title: "AI.LAB - UnB",
@@ -156,7 +156,7 @@ if (currentLang === 'pt-br') {
                 Além de pesquisar acadêmicamente sobre Machine Learning e 
                 o uso de Kubeflow com Kubernetes`,
                 start_date: "Março 2020",
-                color: "#55198b",
+                color: "#5FDECB",
             },
             {
                 title: "Banco do Brasil",
@@ -171,7 +171,7 @@ if (currentLang === 'pt-br') {
                 Produzi e fiz manutenção de banco de dados alimentado
                 por web scraping.`,
                 start_date: "Maio 2019",
-                color: "#55198b",
+                color: "#5FDECB",
             }
         ]
     };
@@ -205,7 +205,7 @@ else {
                 job_title: "Teacher",
                 description: `Programming teacher for children aged 8 to 12 during free time`,
                 start_date: "July 2020",
-                color: "#55198b",
+                color: "#5FDECB",
             },
             {
                 title: "AI.LAB - UnB",
@@ -215,7 +215,7 @@ else {
                 In addition to academic research on Machine Learning and the use of 
                 Kubeflow with Kubernetes`,
                 start_date: "March 2020",
-                color: "#55198b",
+                color: "#5FDECB",
             },
             {
                 title: "Bank of Brazil",
@@ -230,7 +230,7 @@ else {
                 Powered database products and maintenance
                 by scraping the web.` ,
                 start_date: "May 2019",
-                color: "#55198b",
+                color: "#5FDECB",
             }
         ]
     };
