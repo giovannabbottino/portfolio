@@ -25,11 +25,11 @@ $ git clone https://github.com/giovannabbottino/portfolio/
 # Go into the repository
 $ cd portfolio
 
-# Install dependencies
-$ npm install
+#  build image
+$ docker build -t portfolio:latest .
 
-#Start's development server
-$ npm start
+# Run server 
+$ docker run -t -p 3000:3000 portfolio:latest
 ```
 
 ## Technologies ️
