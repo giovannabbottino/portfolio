@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
+import "./style.scss";
 import { Fade } from "react-reveal";
-import { greeting, buttons } from "../../portifolio/";
+import { greeting, buttons } from "../../portfolio";
 import Lang from "../language"
 
 function Header() {
@@ -24,6 +24,9 @@ function Header() {
                         </li>
                         <li>
                             <a href="#experiences">{buttons.experiences}</a>
+                        </li>
+                        <li>
+                            <a href="#education">{buttons.education}</a>
                         </li>
                         <li>
                             <a href="#contact">{buttons.contact}</a>

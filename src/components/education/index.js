@@ -1,20 +1,54 @@
 import React from "react";
-import "./style.css";
-import { education } from "../../portifolio";
+  
+import {Fade, Slide} from "react-reveal";
+import "./style.scss";
 
-export default function Education() {
+export default function Education({school}) {  
+    const GetDescBullets = ({descBullets}) => {
+      return descBullets
+        ? descBullets.map((item, i) => (
+            <li key={i} className="subTitle">
+              {item}
+            </li>
+          ))
+        : null;
+    };
     return (
-        <div className="education-div">
-            {education.map(edu => {
-                return (
-                    <a href={edu.link} className="icon-button" target="_blank" rel="noopener noreferrer" key={edu.name}>
-                        <img
-                            className="icon-button"
-                            src={edu.image}>
-                        </img>
-                    </a>
-                );
-            })}
-        </div>
+      <div>
+        <Fade left duration={1000}>
+          <div className="education-card">
+            <div className="education-card-left">
+              <img
+                crossOrigin={"anonymous"}
+                href={school.link}
+                className="education-roundedimg"
+                src={school.logo}
+                alt={school.schoolName}
+              />
+            </div>
+            <div className="education-card-right">
+              <h5 className="education-text-school">{school.schoolName}</h5>
+  
+              <div className="education-text-details">
+                <h5 className= "education-text-subHeader">
+                  {school.subHeader}
+                </h5>
+                <p className="education-text-duration" >
+                  {school.duration}
+                </p>
+                <p className="education-text-desc">{school.desc}</p>
+                <div className="education-text-bullets">
+                  <ul>
+                    <GetDescBullets descBullets={school.descBullets} />
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Fade>
+        <Slide left duration={2000}>
+          <div className="education-card-border"></div>
+        </Slide>
+      </div>
     );
-}
+  }

@@ -7,6 +7,7 @@ import Experiences from "./experience";
 import Profile from "./profile";
 import Footer from "../components/footer";
 import Top from "../components/topbutton";
+import EducationSection from "./educationSection";
 
 export default class Main extends Component {
 	render() {
@@ -16,6 +17,7 @@ export default class Main extends Component {
 				<Greeting />
 				<Skills />
 				<Experiences />
+				<EducationSection />
 				<Profile />
 				<Footer />
 				<Top />
