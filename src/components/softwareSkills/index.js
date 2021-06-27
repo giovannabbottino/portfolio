@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { skillsSection } from "../../portifolio";
+import { skillsSection } from "../../portfolio";
 
 export default function SoftwareSkill() {
   return (

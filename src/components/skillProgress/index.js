@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { techStack } from "../../portifolio";
+import { techStack } from "../../portfolio";
 
 export default function StackProgress() {
     return (

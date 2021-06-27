@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import GithubProfileCard from "../../components/githubProfileCard";
 import axios from "axios";
-import { openSource } from "../../portifolio";
+import { openSource } from "../../portfolio";
 
 
 export default function Profile() {

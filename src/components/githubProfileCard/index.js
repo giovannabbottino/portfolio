@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import "./style.css";
 import SocialMedia from "../socialMedia";
-import {contactInfo, buttons} from "../../portifolio";
+import {contactInfo, buttons} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
 

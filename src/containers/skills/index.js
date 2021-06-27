@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import SoftwareSkill from "../../components/softwareSkills";
 import StackProgress from "../../components/skillProgress";
-import { skillsSection } from "../../portifolio";
+import { skillsSection } from "../../portfolio";
 import {Fade} from "react-reveal";
 
 export default function Skills() {

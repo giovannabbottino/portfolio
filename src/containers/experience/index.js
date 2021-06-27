@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import ExperienceCard from "../../components/experienceCard";
-import { experienceSection, socialMediaLinks, buttons } from "../../portifolio";
+import { experienceSection, socialMediaLinks, buttons } from "../../portfolio";
 import { Fade } from "react-reveal";
 import Button from "../../components/button"
 import { Timeline } from 'vertical-timeline-component-for-react';
