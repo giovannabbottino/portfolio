@@ -106,7 +106,7 @@ var greeting = {}
 var experienceSection = {}
 
 const currentLang = localStorage.getItem('lang')
-if (currentLang == 'pt-br') {
+if (currentLang === 'pt-br') {
 
     buttons={
         skill: "Habilidades",

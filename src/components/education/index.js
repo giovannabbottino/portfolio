@@ -7,7 +7,7 @@ export default function Education() {
         <div className="education-div">
             {education.map(edu => {
                 return (
-                    <a href={edu.link} className="icon-button" target="_blank" key={edu.name}>
+                    <a href={edu.link} className="icon-button" target="_blank" rel="noopener noreferrer" key={edu.name}>
                         <img
                             className="icon-button"
                             src={edu.image}>
