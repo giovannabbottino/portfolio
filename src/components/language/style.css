@@ -5,7 +5,7 @@
     background-color: #5FDECB;
     color: white;
     cursor: pointer;
-    padding: 10px;
+    padding: 2px;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -14,3 +14,9 @@
     color: #5FDECB;
     transition: ease-in 0.3s;
 }
+.botao {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+  }

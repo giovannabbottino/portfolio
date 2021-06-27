@@ -23,6 +23,7 @@ export default function Greeting() {
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
+            <p className="greeting-text-d subTitle">{greeting.description}</p>
             <Education />
             <SocialMedia />
           </div>
@@ -32,7 +33,7 @@ export default function Greeting() {
             <Button text={buttons.contact} href="#contact" />
             <Button text={buttons.resume} newTab={true} href={greeting.resumeLink} />
             </div>
-        <img alt="Giovanna Standing" src={require("../../assests/images/undraw_logic_n6th.svg")}></img>
+        <img alt="Giovanna Standing" src={require("../../assests/images/greetings.svg")}></img>
 
         </div>
       </div>

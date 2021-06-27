@@ -17,10 +17,10 @@ export default function Lang() {
 
     
     return (
-        <button onClick={LangEvent} id="langButton">
-            <i class="fas fa-globe" aria-hidden="true">
+        <button className="botao" onClick={LangEvent} id="langButton">
+            <i class="fas fa-language" aria-hidden="true">
             </i>
         </button>
     );
-    
+
 }

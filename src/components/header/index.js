@@ -29,7 +29,9 @@ function Header() {
                             <a href="#contact">{buttons.contact}</a>
                         </li>
                         <li>
-                            <Lang />
+                            <a>
+                                <Lang />
+                            </a>
                         </li>
                     </ul>
                 </header>

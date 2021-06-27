@@ -40,6 +40,10 @@
     font-size: 30px;
     line-height: 40px;
 }
+.greeting-text-p {
+    font-size: 20px;
+    line-height: 40px;
+}
 
 .greeting-image-div > img {
     max-width: 100%;
@@ -85,6 +89,9 @@
     .greeting-text-p {
     font-size: 20px;
     }
+    .greeting-text-d {
+        font-size: 15px;
+    }
 }
 @media (max-width: 768px) {
     .button-greeting-div {
@@ -96,6 +103,11 @@
     }
     .greeting-text-p {
     font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    }
+    .greeting-text-d {
+    font-size: 12px;
     line-height: normal;
     text-align: center;
     }
