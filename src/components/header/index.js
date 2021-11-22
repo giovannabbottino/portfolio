@@ -10,9 +10,7 @@ function Header() {
             <div>
                 <header className="header">
                     <a href="" className="logo">
-                        <span className="grey-color"> &lt;</span>
                         <span className="logo-name">{greeting.username}</span>
-                        <span className="grey-color">/&gt;</span>
                     </a>
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn">
