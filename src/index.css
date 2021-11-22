@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Agustina Regular';
+  font-family: 'Game Of Squids';
   font-style: normal;
   font-weight: normal;
-  src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
+  src: local('Game Of Squids'), url('./assests/fonts/Game Of Squids.ttf') format('woff');
 }
 @font-face {
   font-family: 'Montserrat';
