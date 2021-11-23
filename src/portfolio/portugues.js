@@ -1,3 +1,5 @@
+import emoji from "react-easy-emoji";
+
 var buttons={
     projects: "Projetos",
     certifications: "Certificações",
