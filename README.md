@@ -20,16 +20,39 @@ From your command line, clone and run:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/giovannabbottino/portfolio/
+git clone https://github.com/giovannabbottino/portfolio/
 
 # Go into the repository
-$ cd portfolio
+cd portfolio
+```
 
-#  build image
-$ docker build -t portfolio:latest .
+Using npm
+
+```bash
+# Install dependencies
+npm install
 
 # Run server 
-$ docker run -t -p 3000:3000 portfolio:latest
+npm start
+```
+
+Using docker
+
+```bash
+#  build image
+docker build -t portfolio:latest .
+
+# Run server 
+docker run -t -p 3000:3000 portfolio:latest
+```
+
+Using docker-compose
+```bash
+#  build
+docker-compose build --no-cache
+
+# Run server 
+docker-compose up -d --build
 ```
 
 ## Technologies ️
