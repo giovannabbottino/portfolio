@@ -48,11 +48,62 @@ var contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
+var academic = {
+    title: "Academic",
+    subTitle: "Some studies that I participated",
+    list: [
+        {
+            title: "Edubot Project",
+            subTitle: `Analyzing the Adaptation of Robotics Classes to the 
+            Remote Environment. Published in: 2021 Latin 
+            American Robotics Symposium, SBR and WRE` ,
+            button: [{ 
+                title: "website",
+                url: "http://www.natalnet.br/wre2021/" 
+            }, 
+            { 
+                title: "full text",
+                url: "https://ieeexplore.ieee.org/document/9605467" 
+            }]
+        },
+        {
+            title: "PIBITI",
+            subTitle: `Scientific Initiation Program in Technological 
+            Development and Innovation - PIBITI (CNPq) 
+            2021/2022. `,
+            button: [ {
+                title: "website",
+                url: "https://sae.unb.br/"
+            }
+            ]
+        },
+        {
+            title: "AI.LAB",
+            subTitle: `University of Brasília (UnB) Artificial Intelligence 
+            Laboratory` ,
+            button: [{ 
+                title: "website",
+                url: "https://ailab.unb.br/" 
+            }]
+        },
+        {
+            title: "ITRAC",
+            subTitle: `Information Technology - Research and Application 
+            Center` ,
+            button: [{ 
+                title: "website",
+                url: "http://itrac.unb.br/" 
+            }]
+        }
+    ]
+}
+
 const currentLang = localStorage.getItem('lang')
 if (currentLang === 'pt-br') {
     buttons = portugues.buttons
     greeting = portugues.greeting
     contactInfo = portugues.contactInfo
+    academic = portugues.academic
 }
 
 export {
@@ -61,4 +112,5 @@ export {
     buttons,
     greeting,
     contactInfo,
+    academic,
 };
