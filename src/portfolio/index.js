@@ -8,7 +8,6 @@ const socialMediaLinks = {
     linkedin: "https://www.linkedin.com/in/giovannabbottino/?locale=en_US",
     gmail: "giovannabbottino@gmail.com",
     gitlab: "https://gitlab.com/giovannabbottino",
-    deviantart: "https://www.deviantart.com/giovannabbottino",
     instagram: "https://instagram.com/giovannabbottino"
 };
 
