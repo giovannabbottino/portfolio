@@ -48,10 +48,7 @@ docker run -t -p 3000:3000 portfolio:latest
 
 Using docker-compose
 ```bash
-#  build
-docker-compose build --no-cache
-
-# Run server 
+#  build and Run server 
 docker-compose up -d --build
 ```
 
