@@ -14,16 +14,16 @@ var buttons={
 const greeting = {
     /* Your Summary And Greeting Section */
     username: "Giovanna B Bottino",
-    title: "Hello! How are you?",
-    subTitle: `My name is Giovanna, I am a full-stack web developer and junior data scientist.
-    I develop projects that use Exploratory Analysis, Data Visualization and Machine Learning techniques.
-    I'm also a level 6 artificer in my current D&D campaign.`,
-    resumeLink: "https://drive.google.com/file/d/1jqHyyEXYHJ3GM8Xc-vfEQUeWp5FL5-iJ/view?usp=sharing"
+    title: "Oie! Tudo bem?",
+    subTitle: `Meu nome é Giovanna, sou uma desenvolvedora web full-stack e cientista de dados júnior.
+    Desenvolvo projetos que utilizam técnicas de Análise Exploratória, Visualização de Dados e Aprendizado de Máquina.
+    Também sou uma artífice de nível 6 em minha campanha atual de D&D.`,
+    resumeLink: "https://drive.google.com/file/d/1Qu7755tZ9CHiPI3ZTFZDq5zYWmnemaSh/view?usp=sharing"
 };
 
 const contactInfo = {
-    title: emoji("Contact Me ☎️"),
-    subtitle: `Discuss a project or just want to say hi? My Inbox is open for all.`,
+    title: emoji("Entre em contato! ☎️"),
+    subtitle: `Discutir um projeto ou apenas quer dizer oi? Meus contatos estão abertos para todos.`,
     number: "+55 (61) 9 8581-9745",
     email_address: "giovannabbottino@gmail.com"
 };
