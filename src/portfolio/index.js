@@ -78,21 +78,12 @@ var academic = {
             ]
         },
         {
-            title: "AI.LAB",
-            subTitle: `University of Brasília (UnB) Artificial Intelligence 
-            Laboratory` ,
+            title: "Artificial Intelligence Tests ",
+            subTitle: `Development and maintenance methodology:
+            tests on Artificial Intelligence systems` ,
             button: [{ 
-                title: "website",
-                url: "https://ailab.unb.br/" 
-            }]
-        },
-        {
-            title: "ITRAC",
-            subTitle: `Information Technology - Research and Application 
-            Center` ,
-            button: [{ 
-                title: "website",
-                url: "http://itrac.unb.br/" 
+                title: "full text",
+                url: "https://drive.google.com/file/d/1dRCTol6n1ZqIiFdqPBnM136MPgBFrxRN/view?usp=sharing" 
             }]
         }
     ]
