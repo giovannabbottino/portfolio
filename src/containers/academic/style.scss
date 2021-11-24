@@ -25,11 +25,16 @@
   width: 35%;
   height: auto;
   padding: 10px 3em 0 2em;
-  display: flex;
-  float: left;
+  display: inline-block;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  text-align:left;
+}
+
+.academic-card-container{
+  position:relative;
+  text-align:center;
 }
 /* Media Query */
 @media (max-width: 1380px) {

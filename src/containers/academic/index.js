@@ -17,6 +17,7 @@ export default function Academic() {
                 <div className="academic-text-div">
                     <h1 className="academic-heading">{academic.title} </h1>
                     <p className="subTitle academic-text-subtitle">{academic.subTitle}</p>
+                    <div className="academic-card-container">
                         {academic.list.map(card => {
                             return (
                                 <div className="academic-card-div">
@@ -24,6 +25,7 @@ export default function Academic() {
                                 </div>
                             );
                         })}
+                    </div>
                 </div>
                 </Fade>
             </div>
