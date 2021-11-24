@@ -28,7 +28,33 @@ const contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
-var academic = {
+const talk = {
+    title: "Conversas",
+    subTitle: "Me dê um microfone e você me verá falar para sempre",
+    list: [
+        {
+            title: "Meu Intercâmbio Profissional | TURQUIA",
+            subTitle: `O profissional de Tecnologia da Informação 
+            é cobiçado ao redor do mundo. Por isso, 
+            intercambistas têm cada vez mais procurado e 
+            investido em programas nessa área  e quem opta 
+            por construir uma carreira fora do país veem uma 
+            grande oportunidade de crescimento!` ,
+            embedId: "SIyXYRNqVXc"
+        },
+        {
+            title: "Programe o seu Futuro Profissional no Exterior",
+            subTitle: `Se você é estudante ou profissional da área 
+            de TI e tem vontade de iniciar sua carreira 
+            como programador no exterior, a AIESEC Brasília 
+            te convida para o webinar: Programe o seu futuro 
+            profissional no exterior` ,
+            image: "futuro.svg"
+        }
+    ]
+}
+
+const academic = {
     title: "Acadêmico",
     subTitle: "Alguns estudos dos quais participei",
     list: [
@@ -38,24 +64,13 @@ var academic = {
             Remote Environment. Publicado em: 2021 Latin 
             American Robotics Symposium, SBR and WRE` ,
             button: [{ 
-                title: "website",
+                title: "site",
                 url: "http://www.natalnet.br/wre2021/" 
             }, 
             { 
                 title: "artigo",
                 url: "https://ieeexplore.ieee.org/document/9605467" 
             }]
-        },
-        {
-            title: "PIBITI",
-            subTitle: `Programa de Iniciação Científica em Tecnologia
-            Desenvolvimento e Inovação - PIBITI (CNPq)
-            2021/2022. `,
-            button: [ {
-                title: "website",
-                url: "https://sae.unb.br/"
-            }
-            ]
         },
         {
             title: "Testes de Inteligência Artificial",
@@ -65,7 +80,19 @@ var academic = {
                 title: "artigo",
                 url: "https://drive.google.com/file/d/1dRCTol6n1ZqIiFdqPBnM136MPgBFrxRN/view?usp=sharing" 
             }]
+        },
+        {
+            title: "PIBITI",
+            subTitle: `Programa de Iniciação Científica em Tecnologia
+            Desenvolvimento e Inovação - PIBITI (CNPq)
+            2021/2022. `,
+            button: [ {
+                title: "site",
+                url: "https://sae.unb.br/"
+            }
+            ]
         }
+        
     ]
 }
 
@@ -74,4 +101,5 @@ export {
     greeting,
     contactInfo,
     academic,
+    talk,
 };

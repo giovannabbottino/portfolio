@@ -48,6 +48,28 @@ var contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
+var talk = {
+    title: "Talks",
+    subTitle: "Give me a microphone and you will see me speak forever",
+    list: [
+        {
+            title: "My Professional Exchange | Working in TURKEY",
+            subTitle: `The Information Technology professional is 
+            sought after around the world. Therefore, exchange students 
+            have increasingly sought and invested in programs in this 
+            area and those who choose to build a career abroad see a great 
+            opportunity for growth!` ,
+            embedId: "SIyXYRNqVXc"
+        },
+        {
+            title: "Schedule your Professional Future Abroad",
+            subTitle: `If you are a student or IT professional and want 
+            to start your career as a programmer abroad, AIESEC Brasília 
+            invites you to the webinar: Plan your professional future abroad` ,
+            image: "futuro.svg"
+        }
+    ]
+}
 var academic = {
     title: "Academic",
     subTitle: "Some studies that I participated",
@@ -58,24 +80,13 @@ var academic = {
             Remote Environment. Published in: 2021 Latin 
             American Robotics Symposium, SBR and WRE` ,
             button: [{ 
-                title: "website",
+                title: "site",
                 url: "http://www.natalnet.br/wre2021/" 
             }, 
             { 
                 title: "full text",
                 url: "https://ieeexplore.ieee.org/document/9605467" 
             }]
-        },
-        {
-            title: "PIBITI",
-            subTitle: `Scientific Initiation Program in Technological 
-            Development and Innovation - PIBITI (CNPq) 
-            2021/2022. `,
-            button: [ {
-                title: "website",
-                url: "https://sae.unb.br/"
-            }
-            ]
         },
         {
             title: "Artificial Intelligence Tests ",
@@ -85,6 +96,16 @@ var academic = {
                 title: "full text",
                 url: "https://drive.google.com/file/d/1dRCTol6n1ZqIiFdqPBnM136MPgBFrxRN/view?usp=sharing" 
             }]
+        },        {
+            title: "PIBITI",
+            subTitle: `Scientific Initiation Program in Technological 
+            Development and Innovation - PIBITI (CNPq) 
+            2021/2022. `,
+            button: [ {
+                title: "site",
+                url: "https://sae.unb.br/"
+            }
+            ]
         }
     ]
 }
@@ -95,6 +116,7 @@ if (currentLang === 'pt-br') {
     greeting = portugues.greeting
     contactInfo = portugues.contactInfo
     academic = portugues.academic
+    talk = portugues.talk
 }
 
 export {
@@ -103,5 +125,6 @@ export {
     buttons,
     greeting,
     contactInfo,
+    talk,
     academic,
 };

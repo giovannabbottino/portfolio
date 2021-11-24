@@ -22,13 +22,8 @@
 }
 
 .academic-card-div{
-  width: 35%;
-  height: auto;
-  padding: 10px 3em 0 2em;
+  padding: 5px 2em 0 2em;
   display: inline-block;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   text-align:left;
 }
 
@@ -68,5 +63,5 @@
   .academic-image-div {
     /* display: none; */
     order: 2;
-  }
+  }  
 }
