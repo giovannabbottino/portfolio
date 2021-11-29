@@ -30,7 +30,7 @@ export default function Greeting() {
             <Button text={buttons.contact} href="#contact" />
             <Button text={buttons.resume} newTab={true} href={greeting.resumeLink} />
             </div>
-        <img alt="Giovanna Standing" src={require("../../assests/images/greetings.svg")}></img>
+        <img alt="Giovanna Standing" src={require("../../assests/images/greetings.svg").default}></img>
 
         </div>
       </div>
