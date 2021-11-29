@@ -49,7 +49,8 @@ const talk = {
             como programador no exterior, a AIESEC Brasília 
             te convida para o webinar: Programe o seu futuro 
             profissional no exterior` ,
-            image: "futuro.svg"
+            image: "futuro.svg",
+            link: "https://www.youtube.com/watch?v=sMllDRKBYMo&t=237s&ab_channel=AprendizdeInterc%C3%A2mbio"
         }
     ]
 }

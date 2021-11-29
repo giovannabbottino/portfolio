@@ -66,7 +66,8 @@ var talk = {
             subTitle: `If you are a student or IT professional and want 
             to start your career as a programmer abroad, AIESEC Brasília 
             invites you to the webinar: Plan your professional future abroad` ,
-            image: "futuro.svg"
+            image: "futuro.svg",
+            link: "https://www.youtube.com/watch?v=sMllDRKBYMo&t=237s&ab_channel=AprendizdeInterc%C3%A2mbio"
         }
     ]
 }

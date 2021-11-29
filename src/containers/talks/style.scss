@@ -1,0 +1,53 @@
+@import "../../_globalColor.scss";
+
+.talk-main-div {
+    display: flex;
+}
+.talk-text-div {
+  margin-left: 50px;
+}
+
+.talk-main-div > * {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.talk-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.talk-card-container{
+  position:relative;
+  text-align:center;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  .talk-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .talk-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .talk-main-div {
+    flex-direction: column
+  }
+  .talk-text-div {
+    margin-left: 0px;
+    margin: 20px;
+  }
+  .talk-text {
+    font-size: 16px;
+  }
+  .talk-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+}

@@ -10,7 +10,7 @@ export default function Academic() {
             <div className="academic-main-div">
                 <Fade left duration={1000}>
                 <div className="academic-image-div">
-                    <img alt="Giovanna Working" src={require("../../assests/images/academic.svg")}></img>
+                    <img alt="Giovanna Working" src={require("../../assests/images/academic.svg").default}></img>
                 </div>
                 </Fade>
                 <Fade right duration={1000}>

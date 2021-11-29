@@ -6,6 +6,7 @@ import Profile from "./profile";
 import Footer from "../components/footer";
 import Top from "../components/topbutton";
 
+import Talk from "./talks";
 import Academic from "./academic";
 
 export default class Main extends Component {
@@ -14,6 +15,7 @@ export default class Main extends Component {
 			<div>
 				<Header />
 				<Greeting />
+				<Talk />
 				<Academic />
 				<Profile />
 				<Footer />
