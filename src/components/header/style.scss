@@ -3,6 +3,7 @@
 /* header */
 
 .header {
+  background-color: $headerUl;
   max-width: 90%;
   padding: 15px 10px;
   margin: 0px auto;
@@ -34,7 +35,7 @@
 .header .logo {
   display: block;
   float: left;
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;

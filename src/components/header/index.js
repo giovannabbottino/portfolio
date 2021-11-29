@@ -1,13 +1,12 @@
 import React from "react";
 import "./style.scss";
-import { Fade } from "react-reveal";
+import Headroom from "react-headroom";
 import { greeting, buttons } from "../../portfolio";
 import Lang from "../language"
 
 function Header() {
     return (
-        <Fade top duration={1000} distance="20px">
-            <div>
+        <Headroom>
                 <header className="header">
                     <a href="" className="logo">
                         <span className="logo-name">{greeting.username}</span>
@@ -39,8 +38,7 @@ function Header() {
                         </li>
                     </ul>
                 </header>
-            </div>
-        </Fade>
+        </Headroom>
     );
 }
 
