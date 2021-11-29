@@ -5,7 +5,7 @@ import {Card, CardContent, Typography } from '@mui/material/'
 
 export default function AcademicCard({ card }) {
     return (
-        <Card sx={{ minWidth: 200, maxWidth:320, minHeight: 250}}>
+        <Card className="MuiCard-academic">
             <CardContent>
                 <Typography variant="h5" component="div">
                     {card.title}

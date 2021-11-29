@@ -21,7 +21,7 @@ export default function TalkCard({ card }) {
         </a>;
     }
         return (
-            <Card className="MuiCard-root">
+            <Card className="MuiCard-talk">
                 <CardActionArea>
                     {cardMedia}
                 </CardActionArea>

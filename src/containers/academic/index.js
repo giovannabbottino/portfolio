@@ -20,9 +20,7 @@ export default function Academic() {
                     <div className="academic-card-container">
                         {academic.list.map(card => {
                             return (
-                                <div className="academic-card-div">
                                 <AcademicCard card={card}/>
-                                </div>
                             );
                         })}
                     </div>

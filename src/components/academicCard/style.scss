@@ -4,3 +4,19 @@
     padding: 15px;
     float: left;
   }
+
+.MuiCard-academic{
+  display: inline-block;
+  width: calc(40% - 1em);
+  height: 12em;
+  margin: 1em;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .MuiCard-academic{
+    display: center;
+    width: calc(100% - 2em);
+    height: auto;
+  }
+}

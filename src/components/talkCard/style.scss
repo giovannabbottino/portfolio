@@ -5,7 +5,7 @@ hr {
 	border-top: 1px solid $mainColor;
 }
 
-.MuiCard-root{
+.MuiCard-talk{
   display: inline-block;
   max-width: calc(50% - 10em);
   min-height: 27em;
@@ -16,7 +16,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .MuiCard-root{
+  .MuiCard-talk{
     display: center;
     max-width: calc(100% - 2em);
     height: auto;
