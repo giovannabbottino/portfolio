@@ -1,6 +1,6 @@
 import emoji from "react-easy-emoji";
 
-var buttons={
+const buttons={
     projects: "Projetos",
     certifications: "Certificações",
     talks: "Conversas",
@@ -27,6 +27,93 @@ const contactInfo = {
     number: "+55 (61) 9 8581-9745",
     email_address: "giovannabbottino@gmail.com"
 };
+
+const certification = {
+    title: "Certificações",
+    subTitle: "Algumas coisas que fiz",
+    list: [
+        {
+            title: "Intercambio",
+            image: "https://drive.google.com/thumbnail?id=1kuKg88cVrxAfjYC1sZi9HomnVK8XSLRd",
+            button: [{ 
+                title: "certificado",
+                url: "https://drive.google.com/file/d/1kuKg88cVrxAfjYC1sZi9HomnVK8XSLRd/view?usp=sharing" 
+            }, 
+            { 
+                title: "site",
+                url: "https://aiesec.org.br/" 
+            }]
+        },
+        {
+            title: "MBA Jr Leardership",
+            image: "https://drive.google.com/thumbnail?id=19V3WgpeTb7Pr06WpYi2VU6tsS7L_22Yg",
+            button: [{ 
+                title: "certificado",
+                url: "https://drive.google.com/file/d/19V3WgpeTb7Pr06WpYi2VU6tsS7L_22Yg/view?usp=sharing" 
+            }, 
+            { 
+                title: "curso",
+                url: "https://www.bbiofchicago.com/mbajr-gncc" 
+            }]
+        },
+        {
+            title: "Jogos Digitais",
+            image: "https://drive.google.com/thumbnail?id=1e6rAq_ujBRjCK8exRGFn3KmJmoDifUc4",
+            button: [{ 
+                title: "certificado",
+                url: "https://drive.google.com/file/d/1e6rAq_ujBRjCK8exRGFn3KmJmoDifUc4/view?usp=sharing" 
+            }]
+        },
+        {
+            title: "Curso de Excel VBA",
+            image: "https://cursos.alura.com.br/assets/images/certificates/certificate-alura-pt_BR.png",
+            button: [{ 
+                title: "certificado",
+                url: "https://cursos.alura.com.br/degree/certificate/f5048e8a-48bc-4e52-a8cb-ead197e0deb5" 
+            }, 
+            { 
+                title: "curso",
+                url: "https://www.alura.com.br/formacao-excel-vba" 
+            }]
+        },
+        {
+            title: "Curso de Power BI",
+            image: "https://cursos.alura.com.br/assets/images/certificates/certificate-alura-pt_BR.png",
+            button: [{ 
+                title: "certificado",
+                url: "https://cursos.alura.com.br/degree/certificate/2761aa89-509e-4203-9ff6-938c6ea9f86f" 
+            }, 
+            { 
+                title: "curso",
+                url: "https://www.alura.com.br/formacao-power-bi" 
+            }]
+        },
+        {
+            title: "CPBSB Voluntária",
+            image: "https://drive.google.com/thumbnail?id=1_g36fAFjFKOZ4jHrMuwkFQMaPLPj7Ikv",
+            button: [{ 
+                title: "certificado",
+                url: "https://drive.google.com/file/d/1_g36fAFjFKOZ4jHrMuwkFQMaPLPj7Ikv/view?usp=sharing" 
+            }, 
+            { 
+                title: "site",
+                url: "https://brasil.campus-party.org/" 
+            }]
+        },
+        {
+            title: "MindTheSec Voluntária",
+            image: "https://drive.google.com/thumbnail?id=1uUQmhLDTOUFOy6I8UC61jcZT6bxIzCd2",
+            button: [{ 
+                title: "certificado",
+                url: "https://drive.google.com/file/d/1uUQmhLDTOUFOy6I8UC61jcZT6bxIzCd2/view?usp=sharing" 
+            }, 
+            { 
+                title: "site",
+                url: "https://www.mindthesec.com.br/" 
+            }]
+        }
+    ]
+}
 
 const talk = {
     title: "Conversas",
@@ -101,6 +188,7 @@ export {
     buttons,
     greeting,
     contactInfo,
+    certification,
     academic,
     talk,
 };

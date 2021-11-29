@@ -15,7 +15,6 @@ export default function TalkCard({ card }) {
             <CardMedia className="MuiCardMedia"
                 component="img"
                 image={require("../../assests/images/" + card.image).default}
-                alt="Giovanna Working"
                 height="140"
             />
         </a>;

@@ -9,11 +9,6 @@ export default function Academic() {
         <div className="main" id="academic">
             <div className="academic-main-div">
                 <Fade left duration={1000}>
-                <div className="academic-image-div">
-                    <img alt="Giovanna Working" src={require("../../assests/images/academic.svg").default}></img>
-                </div>
-                </Fade>
-                <Fade right duration={1000}>
                 <div className="academic-text-div">
                     <h1 className="academic-heading">{academic.title} </h1>
                     <p className="subTitle academic-text-subtitle">{academic.subTitle}</p>
@@ -24,6 +19,11 @@ export default function Academic() {
                             );
                         })}
                     </div>
+                </div>
+                </Fade>
+                <Fade right duration={1000}>
+                <div className="academic-image-div">
+                    <img alt="Giovanna Working" src={require("../../assests/images/academic.svg").default}></img>
                 </div>
                 </Fade>
             </div>

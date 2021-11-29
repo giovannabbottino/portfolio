@@ -48,6 +48,93 @@ var contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
+var certification = {
+    title: "Certification",
+    subTitle: "Some stuff I have made",
+    list: [
+        {
+            title: "Exchange Program",
+            image: "https://drive.google.com/thumbnail?id=1kuKg88cVrxAfjYC1sZi9HomnVK8XSLRd",
+            button: [{ 
+                title: "certificate",
+                url: "https://drive.google.com/file/d/1kuKg88cVrxAfjYC1sZi9HomnVK8XSLRd/view?usp=sharing" 
+            }, 
+            { 
+                title: "site",
+                url: "https://aiesec.org.br/" 
+            }]
+        },
+        {
+            title: "MBA Jr Leardership",
+            image: "https://drive.google.com/thumbnail?id=1VE-GX9KW4Sv17Mj08OOAPZyL6SaEeG3X",
+            button: [{ 
+                title: "certificate",
+                url: "https://drive.google.com/file/d/1VE-GX9KW4Sv17Mj08OOAPZyL6SaEeG3X/view?usp=sharing" 
+            }, 
+            { 
+                title: "course",
+                url: "https://www.bbiofchicago.com/mbajr-gncc" 
+            }]
+        },
+        {
+            title: "Digital Games",
+            image: "https://drive.google.com/thumbnail?id=1e6rAq_ujBRjCK8exRGFn3KmJmoDifUc4",
+            button: [{ 
+                title: "certificate",
+                url: "https://drive.google.com/file/d/1e6rAq_ujBRjCK8exRGFn3KmJmoDifUc4/view?usp=sharing" 
+            }]
+        },
+        {
+            title: "Excel VBA Course",
+            image: "https://cursos.alura.com.br/assets/images/certificates/certificate-alura-pt_BR.png",
+            button: [{ 
+                title: "certificate",
+                url: "https://cursos.alura.com.br/degree/certificate/f5048e8a-48bc-4e52-a8cb-ead197e0deb5" 
+            }, 
+            { 
+                title: "course",
+                url: "https://www.alura.com.br/formacao-excel-vba" 
+            }]
+        },
+        {
+            title: "Power BI Course",
+            image: "https://cursos.alura.com.br/assets/images/certificates/certificate-alura-pt_BR.png",
+            button: [{ 
+                title: "certificate",
+                url: "https://cursos.alura.com.br/degree/certificate/2761aa89-509e-4203-9ff6-938c6ea9f86f" 
+            }, 
+            { 
+                title: "course",
+                url: "https://www.alura.com.br/formacao-power-bi" 
+            }]
+        },
+        {
+            title: "CPBSB Volunteer",
+            image: "https://drive.google.com/thumbnail?id=1_g36fAFjFKOZ4jHrMuwkFQMaPLPj7Ikv",
+            button: [{ 
+                title: "certificate",
+                url: "https://drive.google.com/file/d/1_g36fAFjFKOZ4jHrMuwkFQMaPLPj7Ikv/view?usp=sharing" 
+            }, 
+            { 
+                title: "site",
+                url: "https://brasil.campus-party.org/" 
+            }]
+        },
+        {
+            title: "MindTheSec Volunteer",
+            image: "https://drive.google.com/thumbnail?id=1uUQmhLDTOUFOy6I8UC61jcZT6bxIzCd2",
+            button: [{ 
+                title: "certificate",
+                url: "https://drive.google.com/file/d/1uUQmhLDTOUFOy6I8UC61jcZT6bxIzCd2/view?usp=sharing" 
+            }, 
+            { 
+                title: "site",
+                url: "https://www.mindthesec.com.br/" 
+            }]
+        }
+    ]
+}
+
 var talk = {
     title: "Talks",
     subTitle: "Give me a microphone and you will see me speak forever",
@@ -116,6 +203,7 @@ if (currentLang === 'pt-br') {
     buttons = portugues.buttons
     greeting = portugues.greeting
     contactInfo = portugues.contactInfo
+    certification = portugues.certification
     academic = portugues.academic
     talk = portugues.talk
 }
@@ -126,6 +214,7 @@ export {
     buttons,
     greeting,
     contactInfo,
+    certification,
     talk,
     academic,
 };
