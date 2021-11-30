@@ -8,7 +8,7 @@
 .MuiCard-academic{
   display: inline-block;
   width: calc(40% - 1em);
-  height: 12em;
+  min-height: 12em;
   margin: 1em;
   text-align: left;
 }
