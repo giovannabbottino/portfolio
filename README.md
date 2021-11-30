@@ -70,3 +70,9 @@ docker-compose up -d --build
 ## Deployment 
 Don't forget to put your website online. 
 I used [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages), cuz was free and easy. And I highly recommend. 
+
+Just run:
+
+```bash 
+npm run deploy
+```
