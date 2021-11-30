@@ -1,0 +1,24 @@
+@import "../../_globalColor.scss";
+
+#langButton {
+    align-content: center;
+    border: none;
+    outline: none;
+    background-color: $button;
+    color: $buttonHover;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#langButton:hover {
+    background-color: $buttonHover;
+    color: $button;
+    transition: ease-in 0.3s;
+}
+.botao {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+  }

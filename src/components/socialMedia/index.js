@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { socialMediaLinks } from "../../portifolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   return (

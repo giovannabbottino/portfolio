@@ -1,0 +1,22 @@
+.academic-card-button{
+    max-width: 25%;
+    display: flex;
+    padding: 15px;
+    float: left;
+  }
+
+.MuiCard-academic{
+  display: inline-block;
+  width: calc(40% - 1em);
+  min-height: 12em;
+  margin: 1em;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .MuiCard-academic{
+    display: center;
+    width: calc(100% - 2em);
+    height: auto;
+  }
+}

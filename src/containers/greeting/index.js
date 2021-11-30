@@ -3,11 +3,10 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 import "./style.css";
-import { greeting, buttons } from "../../portifolio";
+import { greeting, buttons } from "../../portfolio";
 
 import SocialMedia from "../../components/socialMedia/";
 import Button from "../../components/button/";
-import Education from "../../components/education"
 
 export default function Greeting() {
   return (
@@ -23,7 +22,6 @@ export default function Greeting() {
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
-            <Education />
             <SocialMedia />
           </div>
         </div>
@@ -32,7 +30,7 @@ export default function Greeting() {
             <Button text={buttons.contact} href="#contact" />
             <Button text={buttons.resume} newTab={true} href={greeting.resumeLink} />
             </div>
-        <img alt="Giovanna Standing" src={require("../../assests/images/undraw_logic_n6th.svg")}></img>
+        <img alt="Giovanna Standing" src={require("../../assests/images/greetings.svg").default}></img>
 
         </div>
       </div>

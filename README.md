@@ -20,16 +20,36 @@ From your command line, clone and run:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/giovannabbottino/portfolio/
+git clone https://github.com/giovannabbottino/portfolio/
 
 # Go into the repository
-$ cd portfolio
+cd portfolio
+```
 
-#  build image
-$ docker build -t portfolio:latest .
+Using npm
+
+```bash
+# Install dependencies
+npm install
 
 # Run server 
-$ docker run -t -p 3000:3000 portfolio:latest
+npm start
+```
+
+Using docker
+
+```bash
+#  build image
+docker build -t portfolio:latest .
+
+# Run server 
+docker run -t -p 3000:3000 portfolio:latest
+```
+
+Using docker-compose
+```bash
+#  build and Run server 
+docker-compose up -d --build
 ```
 
 ## Technologies ️
@@ -50,3 +70,9 @@ $ docker run -t -p 3000:3000 portfolio:latest
 ## Deployment 
 Don't forget to put your website online. 
 I used [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages), cuz was free and easy. And I highly recommend. 
+
+Just run:
+
+```bash 
+npm run deploy
+```

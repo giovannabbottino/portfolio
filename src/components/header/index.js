@@ -1,18 +1,15 @@
 import React from "react";
-import "./style.css";
-import { Fade } from "react-reveal";
-import { greeting, buttons } from "../../portifolio/";
+import "./style.scss";
+import Headroom from "react-headroom";
+import { greeting, buttons } from "../../portfolio";
 import Lang from "../language"
 
 function Header() {
     return (
-        <Fade top duration={1000} distance="20px">
-            <div>
+        <Headroom>
                 <header className="header">
                     <a href="" className="logo">
-                        <span className="grey-color"> &lt;</span>
                         <span className="logo-name">{greeting.username}</span>
-                        <span className="grey-color">/&gt;</span>
                     </a>
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn">
@@ -20,21 +17,28 @@ function Header() {
                     </label>
                     <ul className="menu">
                         <li>
-                            <a href="#skills">{buttons.skill}</a>
+                            <a href="#projects">{buttons.projects}</a>
                         </li>
                         <li>
-                            <a href="#experiences">{buttons.experiences}</a>
+                            <a href="#certifications">{buttons.certifications}</a>
+                        </li>
+                        <li>
+                            <a href="#talks">{buttons.talks}</a>
+                        </li>
+                        <li>
+                            <a href="#academic">{buttons.academic}</a>
                         </li>
                         <li>
                             <a href="#contact">{buttons.contact}</a>
                         </li>
                         <li>
-                            <Lang />
+                            <a>
+                                <Lang />
+                            </a>
                         </li>
                     </ul>
                 </header>
-            </div>
-        </Fade>
+        </Headroom>
     );
 }
 

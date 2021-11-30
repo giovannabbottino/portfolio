@@ -1,0 +1,22 @@
+@import "../../_globalColor.scss";
+
+.MuiCard-certification{
+  display: inline-block;
+  width: 15em;
+  height: 12em;
+  margin: 1em;
+  text-align: left;
+}
+
+.MuiCardMedia-certification{
+  height: 10em;
+}
+
+@media (max-width: 768px) {
+  .MuiCard-certification{
+    display: center;
+    width: calc(100% - 1em);
+    height: auto;
+    font-size: 0.5em;
+  }
+}
