@@ -50,7 +50,7 @@ var contactInfo = {
 
 var project = {
     title: "Projects",
-    subTitle: "Some stuff I have made",
+    subTitle: "Some projects I participated",
     list: [
         {
             title: "Clustering",

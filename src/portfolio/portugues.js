@@ -30,7 +30,7 @@ const contactInfo = {
 
 const project = {
     title: "Projetos",
-    subTitle: "Some stuff I have made",
+    subTitle: "Alguns projetos que participei",
     list: [
         {
             title: "Clusterização",
