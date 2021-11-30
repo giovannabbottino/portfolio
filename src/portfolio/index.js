@@ -48,6 +48,80 @@ var contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
+var project = {
+    title: "Projects",
+    subTitle: "Some stuff I have made",
+    list: [
+        {
+            title: "Clustering",
+            image: "https://miro.medium.com/max/1400/1*S9hdbvJ1v4AQC1xktKXisw.png",
+            description: `Unsupervised machine learning, that is, it 
+            does not need to have a prior classification. 
+            Tends to group more similar items based on some 
+            similarity metric. Using summarization and 
+            clustering algorithms it is possible to group 
+            texts by their similarity`,
+            button: [{ 
+                title: "more",
+                url: "https://www.canva.com/design/DAExNMxeQR4/A0cdjUod7JWZskTl53o1jA/view?utm_content=DAExNMxeQR4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" 
+            }],
+            tags:[{ 
+                fontAwesomeClassname: "fab fa-python"
+            },{ 
+                fontAwesomeClassname: "fas fa-brain"
+            },{ 
+                tag: "NLTK"
+            },{ 
+                tag: "KMeans"
+            }]
+        },
+        {
+            title: "ANAC-ID",
+            image: "https://datawow.s3.amazonaws.com/blog/43/image_1/facial-recognition-connected-real-estate.png",
+            description: `ANAC-id is the artificial intelligence 
+            algorithm developed in-house for analyzing 
+            images in the Agency's databases.`,
+            button: [{ 
+                title: "more",
+                url: "https://www.canva.com/design/DAExNMxeQR4/A0cdjUod7JWZskTl53o1jA/view?utm_content=DAExNMxeQR4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" 
+            }],
+            tags:[{ 
+                fontAwesomeClassname: "fab fa-python"
+            },{ 
+                fontAwesomeClassname: "fas fa-brain"
+            },{ 
+                tag: "face_recognition"
+            },{ 
+                tag: "face_compare"
+            },{ 
+                tag: "YOLO"
+            },{ 
+                tag: "DeepFace"
+            }]
+        },
+        {
+            title: "Classification",
+            image: "https://minerandodados.com.br/wp-content/uploads/2017/12/margens.png",
+            description: `Classification is supervised machine 
+            learning, it must have a prior classification.`,
+            button: [{ 
+                title: "more",
+                url: "https://www.canva.com/design/DAExNMxeQR4/A0cdjUod7JWZskTl53o1jA/view?utm_content=DAExNMxeQR4&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" 
+            }],
+            tags:[{ 
+                fontAwesomeClassname: "fab fa-python"
+            },{ 
+                fontAwesomeClassname: "fas fa-brain"
+            },{ 
+                tag: "VSM"
+            },{ 
+                tag: "SVM "
+            }]
+        }
+    ]
+}
+
+
 var certification = {
     title: "Certification",
     subTitle: "Some stuff I have made",
@@ -214,6 +288,7 @@ export {
     buttons,
     greeting,
     contactInfo,
+    project,
     certification,
     talk,
     academic,

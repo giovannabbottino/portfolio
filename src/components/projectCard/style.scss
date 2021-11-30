@@ -1,0 +1,26 @@
+@import "../../_globalColor.scss";
+hr {
+	border: 0;
+	border-top: 1px solid $mainColor;
+}
+
+.MuiCard-project{
+  display: inline-block;
+  max-width: calc(45% - 15em);
+  min-height: 35em;
+  margin: 1em;
+}
+
+.MuiCardMedia-project{
+  height: 25em;
+}
+@media (max-width: 1380px) {
+  .MuiCard-project{
+    display: center;
+    max-width: calc(100% - 2em);
+    height: auto;
+  }
+  .MuiCardMedia-project{
+    display: center;
+  }
+}

@@ -6,6 +6,7 @@ import Profile from "./profile";
 import Footer from "../components/footer";
 import Top from "../components/topbutton";
 
+import Project from "./projects";
 import Certification from "./certification";
 import Talk from "./talks";
 import Academic from "./academic";
@@ -16,6 +17,7 @@ export default class Main extends Component {
 			<div>
 				<Header />
 				<Greeting />
+				<Project />
 				<Certification />
 				<Talk />
 				<Academic />

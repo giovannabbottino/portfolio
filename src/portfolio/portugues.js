@@ -28,6 +28,79 @@ const contactInfo = {
     email_address: "giovannabbottino@gmail.com"
 };
 
+const project = {
+    title: "Projetos",
+    subTitle: "Some stuff I have made",
+    list: [
+        {
+            title: "Clusterização",
+            image: "https://miro.medium.com/max/1400/1*S9hdbvJ1v4AQC1xktKXisw.png",
+            description: `Aprendizado de máquina não supervisionado, 
+            ou seja, não precisa ter uma classificação prévia. 
+            Tende a agrupar itens mais semelhantes com base 
+            em alguma métrica de similaridade. Utilizando 
+            a sumarização e algoritmos de clusterização é 
+            possível agrupar textos pela sua semelhança`,
+            button: [{ 
+                title: "more",
+                url: "https://www.canva.com/design/DAExM_OXC0I/tlYLbGXyk7SEkc6PU0Ulkw/view?utm_content=DAExM_OXC0I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" 
+            }],
+            tags:[{ 
+                fontAwesomeClassname: "fab fa-python"
+            },{ 
+                fontAwesomeClassname: "fas fa-brain"
+            },{ 
+                tag: "NLTK"
+            },{ 
+                tag: "KMeans"
+            }]
+        },
+        {
+            title: "ANAC-ID",
+            image: "https://datawow.s3.amazonaws.com/blog/43/image_1/facial-recognition-connected-real-estate.png",
+            description: `O ANAC-id é o algoritmo de inteligência 
+            artificial desenvolvido internamente para análise 
+            de imagens nas bases de dados da Agência. `,
+            button: [{ 
+                title: "more",
+                url: "https://www.canva.com/design/DAExM_OXC0I/tlYLbGXyk7SEkc6PU0Ulkw/view?utm_content=DAExM_OXC0I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" 
+            }],
+            tags:[{ 
+                fontAwesomeClassname: "fab fa-python"
+            },{ 
+                fontAwesomeClassname: "fas fa-brain"
+            },{ 
+                tag: "face_recognition"
+            },{ 
+                tag: "face_compare"
+            },{ 
+                tag: "YOLO"
+            },{ 
+                tag: "DeepFace"
+            }]
+        },
+        {
+            title: "Classificação",
+            image: "https://minerandodados.com.br/wp-content/uploads/2017/12/margens.png",
+            description: `Classificação é aprendizado de 
+            máquina supervisionado, precisa ter uma classificação prévia. `,
+            button: [{ 
+                title: "more",
+                url: "https://www.canva.com/design/DAExM_OXC0I/tlYLbGXyk7SEkc6PU0Ulkw/view?utm_content=DAExM_OXC0I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" 
+            }],
+            tags:[{ 
+                fontAwesomeClassname: "fab fa-python"
+            },{ 
+                fontAwesomeClassname: "fas fa-brain"
+            },{ 
+                tag: "VSM"
+            },{ 
+                tag: "SVM "
+            }]
+        }
+    ]
+}
+
 const certification = {
     title: "Certificações",
     subTitle: "Algumas coisas que fiz",
@@ -188,6 +261,7 @@ export {
     buttons,
     greeting,
     contactInfo,
+    project,
     certification,
     academic,
     talk,
