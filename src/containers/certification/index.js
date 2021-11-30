@@ -1,9 +1,16 @@
 import React from "react";
 import {Fade} from "react-reveal";
 import { certification } from "../../portfolio";
-import { Carousel } from '@trendyol-js/react-carousel';
-import CertificationCard from "../../components/certificationCard";
+import Carousel from 'react-elastic-carousel';
+import CertificationCard from "../../components/certificationCard/"
 import "./style.scss";
+
+const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 }
+  ];
 
 export default function Certification() {
     return (
@@ -18,15 +25,13 @@ export default function Certification() {
                 <div className="certification-text-div">
                     <h1 className="certification-heading">{certification.title} </h1>
                     <p className="subTitle certification-text-subtitle">{certification.subTitle}</p>
-                    <div className="certification-carousel-div">
-                        <Carousel swiping={true}>
-                            {certification.list.map(card => {
-                                return (
-                                    <CertificationCard card={card}/>
-                                );
-                            })}
-                        </Carousel>
-                    </div>
+                    <Carousel breakPoints={breakPoints}>
+                    {certification.list.map(card => {
+                        return (
+                            <CertificationCard card={card}/>
+                        );
+                    })}
+                    </Carousel>
                 </div>
                 </Fade>
             </div>

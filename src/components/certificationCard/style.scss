@@ -11,10 +11,12 @@
 .MuiCardMedia-certification{
   height: 10em;
 }
+
 @media (max-width: 768px) {
   .MuiCard-certification{
     display: center;
-    width: calc(100% - 2em);
+    width: calc(100% - 1em);
     height: auto;
+    font-size: 0.5em;
   }
 }

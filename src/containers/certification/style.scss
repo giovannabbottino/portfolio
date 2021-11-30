@@ -5,7 +5,8 @@
     font-weight: 400;
 }
 .certification-text-div {
-    margin-left: 50px;
+    margin-left: 40px;
+    max-width: calc(60% - 5em);
 }
 
 .certification-main-div {
@@ -18,11 +19,6 @@
 
 .certification-image-div > img {
     max-width: 100%;
-    height: auto;
-}
-
-.certification-carousel-div{
-    width: 50em;
     height: auto;
 }
 
@@ -47,6 +43,7 @@
     .certification-text-div {
       margin-left: 0px;
       margin: 20px;
+      max-width: calc(100% - 2em);
     }
     .certification-text {
       font-size: 16px;
@@ -58,9 +55,5 @@
     .certification-image-div {
       /* display: none; */
       order: 2;
-    }
-    .certification-carousel-div{
-      width: auto;
-      height: auto;
     }
   }

@@ -11,31 +11,31 @@ export default function CertificationCard({ card }) {
         image=card.image
     }
     return (
-        <Card className="MuiCard-certification">
-            <CardActionArea>
-                <CardMedia className="MuiCardMedia-certification"
-                    component="img"
-                    image={image}
-                    height="140"
-                />
-            </CardActionArea>
-            <CardContent>
-                <Typography variant="h5" component="div">
-                    {card.title}
-                </Typography>
-                {card.button.map(button => { 
-                        return (
-                            <Button
-                                style={{
-                                    color: "#5FDECB"
-                                }}
-                                target="_blank" 
-                                href={button.url}>
-                                    {button.title}
-                            </Button>
-                        );
-                    })}
-            </CardContent>
-        </Card>
+            <Card className="MuiCard-certification">
+                <CardActionArea>
+                    <CardMedia className="MuiCardMedia-certification"
+                        component="img"
+                        image={image}
+                        height="140"
+                    />
+                </CardActionArea>
+                <CardContent>
+                    <Typography variant="h5">
+                        {card.title}
+                    </Typography>
+                    {card.button.map(button => { 
+                            return (
+                                <Button
+                                    style={{
+                                        color: "#5FDECB"
+                                    }}
+                                    target="_blank" 
+                                    href={button.url}>
+                                        {button.title}
+                                </Button>
+                            );
+                        })}
+                </CardContent>
+            </Card>
     );
   }
