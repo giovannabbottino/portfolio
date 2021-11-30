@@ -19,7 +19,7 @@ export default function Certification() {
                     <h1 className="certification-heading">{certification.title} </h1>
                     <p className="subTitle certification-text-subtitle">{certification.subTitle}</p>
                     <div className="certification-carousel-div">
-                        <Carousel show={2.5} slide={2} transition={0.5} swiping={true}>
+                        <Carousel swiping={true}>
                             {certification.list.map(card => {
                                 return (
                                     <CertificationCard card={card}/>
