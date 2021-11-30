@@ -277,6 +277,7 @@ if (currentLang === 'pt-br') {
     buttons = portugues.buttons
     greeting = portugues.greeting
     contactInfo = portugues.contactInfo
+    project = portugues.project
     certification = portugues.certification
     academic = portugues.academic
     talk = portugues.talk
