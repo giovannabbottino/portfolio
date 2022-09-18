@@ -11,7 +11,7 @@ You'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download
 ```
 node@v10.16.0 or higher
 npm@6.9.0 or higher
-git@2.17.1 or higher
+git@2.17.1 or higher 
 ```
 
 ## How to 
